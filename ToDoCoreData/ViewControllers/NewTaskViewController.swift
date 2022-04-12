@@ -6,8 +6,12 @@
 //
 
 import UIKit
+import CoreData
 
 class NewTaskViewController: UIViewController {
+    
+    var delegate: TaskViewControllerDelegate?
+    private var context = StorageManager.shared.persistentContainer.viewContext
     
     private lazy var taskTextField: UITextField = {
         let textField = UITextField()
@@ -27,7 +31,7 @@ class NewTaskViewController: UIViewController {
         button.addTarget(self, action: #selector(cancelTask), for: .touchUpInside)
         return button
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -42,6 +46,12 @@ class NewTaskViewController: UIViewController {
     }
     
     @objc private func saveTask() {
+        guard let entityDescription = NSEntityDescription.entity(forEntityName: "Task", in: context) else { return }
+        guard let task = NSManagedObject(entity: entityDescription, insertInto: context) as? Task else { return }
+        guard let taskTextField = taskTextField.text else { return }
+        task.title = taskTextField
+        StorageManager.shared.saveContext()
+        delegate?.reloadData()
         dismiss(animated: true)
     }
     

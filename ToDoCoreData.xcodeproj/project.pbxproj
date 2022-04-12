@@ -14,6 +14,7 @@
 		BD2952E928046A5700D6C90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2952E728046A5700D6C90F /* LaunchScreen.storyboard */; };
 		BD2952F72804879200D6C90F /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2952F62804879200D6C90F /* NewTaskViewController.swift */; };
 		BD2952F92804A5DC00D6C90F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2952F82804A5DC00D6C90F /* CustomButton.swift */; };
+		BD2E037228058FC700CC0F95 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E037128058FC700CC0F95 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD2952EA28046A5700D6C90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2952F62804879200D6C90F /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 		BD2952F82804A5DC00D6C90F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BD2E037128058FC700CC0F95 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		BD2952F5280486CB00D6C90F /* StorageManager */ = {
 			isa = PBXGroup;
 			children = (
+				BD2E037128058FC700CC0F95 /* StorageManager.swift */,
 				BD2952E228046A5500D6C90F /* ToDoCoreData.xcdatamodeld */,
 			);
 			path = StorageManager;
@@ -183,6 +186,7 @@
 				BD2952DE28046A5500D6C90F /* TasksViewController.swift in Sources */,
 				BD2952DA28046A5500D6C90F /* AppDelegate.swift in Sources */,
 				BD2952F72804879200D6C90F /* NewTaskViewController.swift in Sources */,
+				BD2E037228058FC700CC0F95 /* StorageManager.swift in Sources */,
 				BD2952E428046A5500D6C90F /* ToDoCoreData.xcdatamodeld in Sources */,
 				BD2952F92804A5DC00D6C90F /* CustomButton.swift in Sources */,
 			);
