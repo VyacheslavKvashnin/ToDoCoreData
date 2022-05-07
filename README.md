@@ -28,14 +28,14 @@ https://rapidapi.com/collection/list-of-free-apis
 
 =========================================================
 
-## URLSession
+### URLSession
 
 > + Знакомство с API URLSession    
 > + HTTP запросы    
 > + URLSessionDataTask    
 > + Загрузка изображения из сети
 
-## JSON    
+### JSON    
 
 > + Анатомия JSON формата    
 > + Модель данных    
