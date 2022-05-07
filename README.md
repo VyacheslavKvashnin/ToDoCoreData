@@ -24,7 +24,7 @@ https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
 
 https://rapidapi.com/collection/list-of-free-apis
 
-
+<img src = "https://user-images.githubusercontent.com/101284761/167238425-90c133b4-78ce-4dce-989c-ffca4d6cc9de.png" width = "150"> <img src = "https://user-images.githubusercontent.com/101284761/167238428-c68e1bb8-a94a-423e-b695-dbe7440bfda5.png" width = "150"> <img src = "https://user-images.githubusercontent.com/101284761/167238430-be955115-1f10-4115-be95-fbc447c8e04d.png" width = "150">
 
 =========================================================
 
